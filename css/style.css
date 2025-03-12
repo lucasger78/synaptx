@@ -352,8 +352,6 @@ video {
   
 }
 
-
-
 .navbar {
   padding: 0;
   margin-right: 2%;
@@ -444,14 +442,6 @@ video {
   font-size:20px;
   line-height:1.7;
 }
-/* .welcome-first{
-  font-size: 32px;
-  display: block;
-  text-transform: uppercase;
-  font-weight: 300;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-} */
 
 .welcome-first {
   margin-top: 100px !important;
@@ -464,7 +454,7 @@ video {
   overflow: hidden;
   white-space: nowrap;
   border-right: 2px solid white; /* Simula el cursor */
-  animation: typing 3s steps(30, end) forwards, blink 0.7s infinite;
+  animation: typing 10s steps(70, end) forwards, blink 0.7s infinite;
   max-width: 0; /* Evita que el cursor se desplace más allá del texto */
 }
 
@@ -485,22 +475,25 @@ video {
   }
 }
 
+.h3-home{
+  margin: 5px 0 5px 0 !important;
+}
 
 .p-home{
-  margin-top: 50px !important;
+  margin-top: 15px !important;
   margin-bottom: 100px !important;
 }
 
 .welcome-box p {
-  max-width: 620px;
+  max-width: 75%;
   width:100%;
   margin:0 auto 30px;
   color: #fff;
 }
 .welcome-title {
   font-weight: 700;
-  font-size: 120px;
-  margin-bottom: 10px;
+  font-size: 100px;
+  /* margin-bottom: 10px; */
   letter-spacing:0.02em;
 }
 .welcome-title span {
@@ -512,6 +505,36 @@ video {
 .welcome-box .btn {
   margin-top: 10px;
 }
+
+.btn-proba{
+  margin: 0px 0 120px 0;
+}
+
+.btn-proba {
+  background: #fff;
+  color: blueviolet;
+  text-align:center;
+  line-height:52px;
+  padding:0 35px;
+  border-radius: 0px;
+  text-transform:uppercase;
+  font-weight:600;
+  border:2px solid transparent;
+  border-radius: 10px;
+}
+.btn-proba:hover, .btn-proba:focus {
+  color:rgb(255, 255, 255);
+  /* border-color:fuchsia; */
+  border: 2px dotted fuchsia;
+  box-shadow: rgba(138, 43, 226, 0.8) 4px 4px 25px 1px;  
+  background:none;
+}
+.btn-proba:focus {
+  box-shadow:none;
+  outline:none;
+}
+
+
 .next-section {
   display: inline-block;
   position: absolute;
