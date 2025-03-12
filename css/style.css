@@ -127,6 +127,7 @@ figure {
 
 video {
   position: fixed;
+  top:1px;
   right: 0;
   bottom: 0;
   min-width: 100%; 
@@ -302,6 +303,13 @@ video {
 .container-fluid {
   padding:0 20px;
 }
+
+.logo-img{
+  /* width: auto; */
+  height: 30px;
+  padding-left: 5px;  
+}
+
 #text-logo {
   text-decoration: none;
   font-size: 32px;
@@ -316,6 +324,19 @@ video {
   padding-left: 5px;
   text-decoration: none;
 }
+
+.p-nav {
+  font-size: 16px;
+  color: white;
+  margin: 0;
+  margin-left: 5px; /* Mantiene un pequeño margen */
+  text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+  width: fit-content; /* Ajusta el ancho solo al contenido */
+  display: block; /* Evita que el texto se alinee con otros elementos */
+  padding-left: 5px; /* Ajusta un poco el espaciado si es necesario */
+}
+
+
 @media(max-width: 800px){
   .text-brand{
     color: #1e1e1e;
@@ -327,6 +348,8 @@ video {
   height: 30px;
   
 }
+
+
 
 .navbar {
   padding: 0;
