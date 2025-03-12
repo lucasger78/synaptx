@@ -78,6 +78,9 @@ a:focus {
 p {
   margin: 0 0 20px;
 }
+h1{
+  margin-bottom: 40px !important;
+}
 h1,
 h2,
 h3,
@@ -451,6 +454,7 @@ video {
 } */
 
 .welcome-first {
+  margin-top: 100px !important;
   font-size: 32px;
   display: inline-block;
   text-transform: uppercase;
@@ -482,7 +486,10 @@ video {
 }
 
 
-
+.p-home{
+  margin-top: 50px !important;
+  margin-bottom: 100px !important;
+}
 
 .welcome-box p {
   max-width: 620px;
