@@ -441,14 +441,49 @@ video {
   font-size:20px;
   line-height:1.7;
 }
-.welcome-first{
+/* .welcome-first{
   font-size: 32px;
   display: block;
   text-transform: uppercase;
   font-weight: 300;
   line-height: 1.2;
   letter-spacing: 0.02em;
+} */
+
+.welcome-first {
+  font-size: 32px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid white; /* Simula el cursor */
+  animation: typing 3s steps(30, end) forwards, blink 0.7s infinite;
+  max-width: 0; /* Evita que el cursor se desplace más allá del texto */
 }
+
+/* Animación de escritura */
+@keyframes typing {
+  from {
+    max-width: 0;
+  }
+  to {
+    max-width: 100%;
+  }
+}
+
+/* Parpadeo del cursor */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+
+
 .welcome-box p {
   max-width: 620px;
   width:100%;
