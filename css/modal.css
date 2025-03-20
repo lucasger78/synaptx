@@ -1,0 +1,48 @@
+.video-player {
+    width: 100%;
+    max-width: 800px;
+    height: auto; 
+    /* min-height: 450px;  */
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+
+/* .eins-modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 90%;
+   
+} */
+
+/* Ajustamos el contenedor del video */
+.eins-modal-preview {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+/* Estilizamos el video para que se vea correctamente */
+/* .video-player {
+    width: 100%;
+    max-width: 800px;
+    height: auto; 
+    border-radius: 10px;
+    display: block;
+} */
+
+
+
+
+

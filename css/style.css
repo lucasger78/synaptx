@@ -510,6 +510,14 @@ video {
   margin: 0px 0 120px 0;
 }
 
+.mas{
+  color: blueviolet !important;
+}
+
+.mas:hover{
+  color: rgb(255, 255, 255) !important;
+}
+
 .btn-proba {
   background: #fff;
   color: blueviolet;

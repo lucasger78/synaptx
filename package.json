@@ -1,0 +1,22 @@
+{
+  "name": "seccionvideomuestra",
+  "version": "1.0.0",
+  "description": "modal video",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasger78/synaptx.git"
+  },
+  "author": "Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasger78/synaptx/issues"
+  },
+  "homepage": "https://github.com/lucasger78/synaptx#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2"
+  }
+}
