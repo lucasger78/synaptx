@@ -317,6 +317,7 @@ video {
   text-decoration: none;
   font-size: 32px;
   font-weight: 700;
+ 
 }
 
 .text-brand{
@@ -326,11 +327,22 @@ video {
   display: inline-block;
   padding-left: 5px;
   text-decoration: none;
+  background: linear-gradient(rgb(255, 0, 157),rgb(173, 55, 241)) !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;  
+}
+
+.text-brand:hover{
+  background: linear-gradient(rgb(173, 55, 241), rgb(255, 0, 157)) !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important; 
+  /* text-shadow:rgba(236, 56, 167, 0.6) 2px 2px 20px ;   */
+  cursor: pointer; 
 }
 
 .p-nav {
   font-size: 16px;
-  color: white;
+  color: #1e1e1e;
   margin: 0;
   margin-left: 5px; /* Mantiene un pequeño margen */
   text-align: left; /* Asegura que el texto esté alineado a la izquierda */
@@ -368,7 +380,7 @@ video {
   margin-left: 30px;
 }
 .navbar-nav li a {
-  color:#ffffff;
+  color:#1e1e1e;
   font-size: 15px;
   text-decoration:none;
   display:block;
@@ -449,6 +461,7 @@ video {
   display: inline-block;
   text-transform: uppercase;
   font-weight: 300;
+  color:rgb(0, 0, 0);
   line-height: 1.2;
   letter-spacing: 0.02em;
   overflow: hidden;
@@ -456,7 +469,7 @@ video {
   border-right: 2px solid white; /* Simula el cursor */
   animation: typing 10s steps(70, end) forwards, blink 0.7s infinite;
   max-width: 0; /* Evita que el cursor se desplace más allá del texto */
-}
+  }
 
 /* Animación de escritura */
 @keyframes typing {
@@ -477,25 +490,61 @@ video {
 
 .h3-home{
   margin: 5px 0 5px 0 !important;
+  color:rgb(0, 0, 0); 
+}
+.highlighted-title{
+  background: linear-gradient(rgb(173, 55, 241), rgb(255, 0, 157));
+  -webkit-background-clip: text;
+  color: transparent; 
+  text-shadow:rgba(255, 255, 255, 0.4) 1px 1px 8px;
+}
+
+.highlighted-title:hover{
+  background: linear-gradient(rgb(255, 0, 157), rgb(173, 55, 241));
+  -webkit-background-clip: text;
+  color: transparent; 
+  text-shadow:rgba(255, 255, 255, 0.4) 1px 1px 8px;
+  cursor: pointer;
 }
 
 .p-home{
   margin-top: 15px !important;
   margin-bottom: 100px !important;
+  /* text-shadow:rgba(148, 17, 108, 0.8) 2px 2px 5px ; */
 }
 
 .welcome-box p {
   max-width: 75%;
   width:100%;
   margin:0 auto 30px;
-  color: #fff;
+  color: rgb(173, 55, 241);
+  text-shadow:rgba(255, 255, 255, 0.4) 1px 1px 8px;
 }
+
 .welcome-title {
   font-weight: 700;
   font-size: 100px;
   /* margin-bottom: 10px; */
   letter-spacing:0.02em;
 }
+
+h1 {
+  background: linear-gradient(rgb(255, 0, 157),rgb(173, 55, 241));
+  -webkit-background-clip: text;
+  color: transparent;    
+}
+
+h1:hover {
+  background: linear-gradient(rgb(173, 55, 241), rgb(255, 0, 157));
+  -webkit-background-clip: text;
+  color: transparent; 
+  /* text-shadow:rgba(236, 56, 167, 0.6) 2px 2px 20px ;   */
+  cursor: pointer; 
+}
+
+
+
+
 .welcome-title span {
   font-size:36px;
   display:block;
