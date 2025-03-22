@@ -445,7 +445,11 @@ video {
 }
 .social-icons li a:hover {
   color:#1e1e1e;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background:#f02795;
+  box-shadow: 2px 2px 4px rgb(112, 15, 240);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 /*==============================================
 04. WELCOME BLOCK CSS
@@ -510,14 +514,15 @@ video {
 .p-home{
   margin-top: 15px !important;
   margin-bottom: 100px !important;
-  /* text-shadow:rgba(148, 17, 108, 0.8) 2px 2px 5px ; */
+  background-color: rgb(255, 0, 157);
 }
+
 
 .welcome-box p {
   max-width: 75%;
   width:100%;
   margin:0 auto 30px;
-  color: rgb(173, 55, 241);
+  color: rgb(255, 255, 255);
   text-shadow:rgba(255, 255, 255, 0.4) 1px 1px 8px;
 }
 
