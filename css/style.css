@@ -424,6 +424,9 @@ video {
   right:0;
   z-index: 199;
 }
+
+
+
 .social-icons {
   margin:0;
   padding:0;
@@ -439,8 +442,8 @@ video {
   display:inline-block;
   line-height:50px;
   text-align:center;
-  background: rgba(255, 255, 255, 0.1);
-  color: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 0.3);
+  color: rgb(112, 15, 240);
   font-size:18px;
 }
 .social-icons li a:hover {
@@ -513,16 +516,30 @@ video {
 
 .p-home{
   margin-top: 15px !important;
-  margin-bottom: 100px !important;
-  background-color: rgb(255, 0, 157);
+  margin-bottom: 60px !important;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(138, 43, 226, 0.8) 4px 4px 25px 1px;
+  padding: 15px;
 }
 
+/* .p-home:hover, .p-home:focus {
+  color:rgb(255, 255, 255);
+  border: 2px dotted fuchsia;
+  box-shadow: rgba(138, 43, 226, 0.8) 4px 4px 25px 1px;  
+  background:none;
+}
+.p-home:focus {
+  box-shadow:none;
+  outline:none;
+} */
 
 .welcome-box p {
   max-width: 75%;
   width:100%;
   margin:0 auto 30px;
-  color: rgb(255, 255, 255);
+  color: rgb(173, 55, 241);
   text-shadow:rgba(255, 255, 255, 0.4) 1px 1px 8px;
 }
 
@@ -546,9 +563,6 @@ h1:hover {
   /* text-shadow:rgba(236, 56, 167, 0.6) 2px 2px 20px ;   */
   cursor: pointer; 
 }
-
-
-
 
 .welcome-title span {
   font-size:36px;
@@ -596,7 +610,6 @@ h1:hover {
   outline:none;
 }
 
-
 .next-section {
   display: inline-block;
   position: absolute;
@@ -616,6 +629,10 @@ h1:hover {
 }
 .next-section i:hover {
   opacity: 1;
+}
+
+.scroll-btn{
+  color:rgb(255, 0, 255);
 }
 
 /*==============================================
