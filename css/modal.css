@@ -1,46 +1,79 @@
-.video-player {
-    width: 100%;
-    max-width: 800px;
-    height: auto; 
-    /* min-height: 450px;  */
-    aspect-ratio: 16 / 9;
-    border-radius: 10px;
-    display: block;
-    margin: 0 auto;
-    
-}
-
-
-/* .eins-modal-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 90%;
-    max-height: 90%;
-   
-} */
-
 /* Ajustamos el contenedor del video */
-.eins-modal-preview {
+/* .eins-modal-preview {
     width: 100%;
+    max-width: 90vw;
     height: auto;
     display: flex;
     justify-content: center;
     padding-bottom: 200px;
+    z-index: 999999;
 }
 
-/* Estilizamos el video para que se vea correctamente */
-/* .video-player {
-    width: 100%;
-    max-width: 800px;
+.video-player {
+    width: 100%; 
+    max-width: 1200px; 
     height: auto; 
     border-radius: 10px;
-    display: block;
 } */
+
+.eins-modal {
+    position: fixed; /* Fijar el modal en la pantalla */
+    top: 10%; /* Ajusta la posición verticalmente debajo del navbar */
+    left: 50%;
+    transform: translate(-50%, 0); /* Centrar horizontalmente */
+    align-items: center;
+    justify-content: center;
+    width: 100vw; /* Que ocupe toda la pantalla */
+    height: 100vh; /* Que el modal ocupe toda la altura */
+}
+
+.eins-modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw; /* Hasta el 90% del ancho de la pantalla */
+    max-width: 1400px; /* Ajusta según el tamaño deseado */
+    height: auto;
+  
+}
+
+.eins-modal-preview {
+    width: 100%; /* Ocupará todo el ancho del modal */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 370px;
+    border-radius: 10px;
+    z-index: 999999;
+}
+
+.video-player {
+    width: 100%; /* Que el video se ajuste al tamaño del contenedor */
+    max-width: 1400px; /* Ajusta según el tamaño que necesites */
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Cuando la pantalla es menor a 768px (tablets y celulares) */
+@media (max-width: 1000px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        width: 100%; /* Asegura que el video ocupe toda la pantalla */
+        max-height: 400px; /* Ajusta según lo que quieras */
+    }
+}
 
 
 

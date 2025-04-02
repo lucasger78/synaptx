@@ -138,11 +138,11 @@ video {
 }
 #video:after {
   content: '';
-  opacity: 0.75;
+  opacity: 0.8;
   background: #ded7f8; /* Old browsers */
-  background: -moz-linear-gradient(top, #e8e4f5 0%, #b2a0f5 70%, #f3b7ee 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #e8e4f5 0%, #b2a0f5 70%, #f3b7ee 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #e8e4f5 0%, #b2a0f5 70%, #f3b7ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, #e8e4f5 0%, #e2dbfc 50%, #cec2f7 70%, #f3b7ee 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e8e4f5 0%, #e2dbfc 50%, #cec2f7 70%, #f3b7ee 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e8e4f5 0%, #e2dbfc 50%, #cec2f7 70%, #f3b7ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e4f5', endColorstr='#f3b7ee',GradientType=0 ); /* IE6-9 */
   position:fixed;
   left:0;
@@ -223,9 +223,9 @@ video {
   flex: 1 0 auto;
 }
 .preloader {
-  background: -moz-linear-gradient(top, #e8e4f5 0%, #b2a0f5 70%, #f3b7ee 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #e8e4f5 0%, #b2a0f5 70%, #f3b7ee 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #e8e4f5 0%, #b2a0f5 70%, #f3b7ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, #e8e4f5 0%, #e2dbfc 50%, #cec2f7 70%, #f3b7ee 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e8e4f5 0%, #e2dbfc 50%, #cec2f7 70%, #f3b7ee 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e8e4f5 0%, #e2dbfc 50%, #cec2f7 70%, #f3b7ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a3ec', endColorstr='#39ced6',GradientType=0 ); /* IE6-9 */
   height: 100%;
   left: 0;
@@ -497,15 +497,17 @@ video {
   margin: 5px 0 5px 0 !important;
   color:rgb(0, 0, 0); 
 }
+
+
 .highlighted-title{
-  background: linear-gradient(rgb(173, 55, 241), rgb(255, 0, 157));
+  background: linear-gradient(rgb(173, 55, 241, 0.9), rgb(255, 0, 157, 0.9));
   -webkit-background-clip: text;
   color: transparent; 
   text-shadow:rgba(255, 255, 255, 0.4) 1px 1px 8px;
 }
 
 .highlighted-title:hover{
-  background: linear-gradient(rgb(255, 0, 157), rgb(173, 55, 241));
+  background: linear-gradient(rgb(255, 0, 157, 0.9), rgb(173, 55, 241, 0.9));
   -webkit-background-clip: text;
   color: transparent; 
   text-shadow:rgba(255, 255, 255, 0.4) 1px 1px 8px;
@@ -537,7 +539,7 @@ video {
   max-width: 75%;
   width:100%;
   margin:0 auto 30px;
-  color: rgb(173, 55, 241);
+  color: rgb(173, 55, 241, 0.8);
   text-shadow:rgba(255, 255, 255, 0.4) 1px 1px 8px;
 }
 
@@ -549,13 +551,13 @@ video {
 }
 
 h1 {
-  background: linear-gradient(rgb(255, 0, 157),rgb(173, 55, 241));
+  background: linear-gradient(rgb(255, 0, 157, 0.6),rgb(173, 55, 241, 0.6));
   -webkit-background-clip: text;
   color: transparent;    
 }
 
 h1:hover {
-  background: linear-gradient(rgb(173, 55, 241), rgb(255, 0, 157));
+  background: linear-gradient(rgb(173, 55, 241, 0.6), rgb(255, 0, 157, 0.6));
   -webkit-background-clip: text;
   color: transparent; 
   /* text-shadow:rgba(236, 56, 167, 0.6) 2px 2px 20px ;   */
@@ -638,7 +640,31 @@ h1:hover {
 ================================================*/
 
 .about-title{
-  margin-bottom: 50px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.h4-about{
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.text-about{
+  background-color: rgb(255, 255, 255);
+  color: rgb(173, 55, 241, 0.8);
+  border-radius: 10px;
+  box-shadow: rgba(138, 43, 226, 0.8) 4px 4px 25px 1px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.p-resaltado-about{
+  color: rgb(0, 0, 0);
+}
+
+.rounded{
+  color:rgb(112, 15, 240) !important;
 }
 
 .about-img {
@@ -730,7 +756,7 @@ h1:hover {
 
 
 /*==============================================
-06. SERVICES BLOCK CSS
+06. APLICACION BLOCK CSS
 ================================================*/
 .title-block {
   margin-bottom: 40px;
@@ -740,11 +766,35 @@ h1:hover {
   text-transform: uppercase;
   font-weight: 300;
 }
+
+.aplicacion-title{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.aplicacion-subtitle{
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
 .services-list .item {
-  background-color: rgba(250,250,250,0.25);
+  background: rgba(0,0,0,0.25);
+  box-shadow: 2px 1px 6px rgb(112, 15, 240);
   border-radius: 10px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+.services-list .item:hover {  
+  background:#f02795;
+  box-shadow: 2px 2px 4px rgb(112, 15, 240);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.item-aplicacion{
+  margin-bottom: 30px;
 }
 .service-icon {
   display:block;
@@ -756,10 +806,7 @@ h1:hover {
   padding:40px 20px;
   height:100%;
 }
-.services-list .item:hover {
-  background-color: #fff;
-  color: #1e1e1e;
-}
+
 .service-box h3 {
   font-size:22px;
   font-weight:700;
@@ -781,13 +828,13 @@ h1:hover {
     -ms-flex-pack: center;
     -webkit-justify-content: center;
     justify-content: center;
-    margin-top: 50px
+    margin-top: 5px;
 }
 
 .owl-carousel .owl-dots .owl-dot {
     width: 12px;
     height: 12px;
-    margin: 0 5px;
+    margin: 0 5px;  
     background: rgba(255, 255, 255, .2)
 }
 
@@ -796,7 +843,7 @@ h1:hover {
 }
 
 .owl-carousel .owl-dots .owl-dot.active {
-    background: #fff
+    background: rgb(112, 15, 240);
 }
 
 /*==============================================
