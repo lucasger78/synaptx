@@ -1,30 +1,14 @@
-/* Ajustamos el contenedor del video */
-/* .eins-modal-preview {
-    width: 100%;
-    max-width: 90vw;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 200px;
-    z-index: 999999;
-}
-
-.video-player {
-    width: 100%; 
-    max-width: 1200px; 
-    height: auto; 
-    border-radius: 10px;
-} */
 
 .eins-modal {
     position: fixed; /* Fijar el modal en la pantalla */
-    top: 10%; /* Ajusta la posición verticalmente debajo del navbar */
+    top: 70px; /* Ajusta la posición verticalmente debajo del navbar */
     left: 50%;
     transform: translate(-50%, 0); /* Centrar horizontalmente */
     align-items: center;
     justify-content: center;
     width: 100vw; /* Que ocupe toda la pantalla */
     height: 100vh; /* Que el modal ocupe toda la altura */
+    z-index: 999998;
 }
 
 .eins-modal-content {
@@ -34,6 +18,8 @@
     width: 50vw; /* Hasta el 90% del ancho de la pantalla */
     max-width: 1400px; /* Ajusta según el tamaño deseado */
     height: auto;
+    z-index: 999999;
+    background-color: transparent;
   
 }
 
@@ -43,7 +29,7 @@
     justify-content: center;
     padding-bottom: 370px;
     border-radius: 10px;
-    z-index: 999999;
+    z-index: 10000;
 }
 
 .video-player {
@@ -51,6 +37,8 @@
     max-width: 1400px; /* Ajusta según el tamaño que necesites */
     height: auto;
     border-radius: 10px;
+    z-index: 1000001;
+    filter: brightness(1.3) contrast(1.1);
 }
 
 

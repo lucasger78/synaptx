@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -86,4 +86,24 @@ button:hover {
 
 .dot.active {
     background: black;
+} */
+
+.img-exito {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+  }
+
+  .img-exito:hover {
+    opacity: 1;
+  }
+
+  
+
+.btn-gallery{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    z-index: 99999;
 }
