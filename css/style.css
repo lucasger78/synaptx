@@ -1001,9 +1001,9 @@ h1:hover {
 }
 
 /* Opcional: evitar scroll horizontal */
-.contact-list.owl-carousel {
+/* .contact-list.owl-carousel {
   overflow: visible !important;
-}
+} */
 
 
 
