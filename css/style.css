@@ -435,10 +435,10 @@ video {
   margin: 1px 0px;
 }
 .social-icons li a {
-  width:50px;
-  height:50px;
+  width:80px;
+  height:80px;
   display:inline-block;
-  line-height:50px;
+  line-height:80px;
   text-align:center;
   background: rgba(255, 255, 255, 0.3);
   color: rgb(112, 15, 240);
@@ -451,6 +451,11 @@ video {
   box-shadow: 2px 2px 4px rgb(112, 15, 240);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+}
+
+.icons-social{
+  width:50px !important;
+  height:50px !important;
 }
 /*==============================================
 04. WELCOME BLOCK CSS
@@ -924,6 +929,109 @@ h1:hover {
 .input-field {
   margin-bottom:15px;
 }
+
+.contact-list .item {
+  background: rgba(0,0,0,0.25);
+  box-shadow: 2px 1px 6px rgb(112, 15, 240);
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.contact-list .item:hover {  
+  background:#f02795;
+  box-shadow: 2px 2px 4px rgb(112, 15, 240);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+
+}
+
+/* Contact-box: cuadrado y centrado */
+.contact-box {
+  width: 300px;
+  height: 300px;
+  padding: 30px 20px;
+  
+  border-radius: 15px;
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 15px; /* Espaciado lateral entre los dos */
+ 
+  align-items: center;     /* Centrado horizontal */
+}
+
+.contact-h3,
+.contact-p,
+.service-icon {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Ajustes extra para alineación y separación */
+.contact-h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 15px 0 10px;
+  padding: 0;
+}
+
+.contact-p {
+  margin: 0;
+  padding: 0 10px;
+}
+
+/* Apaga el carrusel SOLO en la sección de contacto */
+.contact-list.owl-carousel {
+  display: flex !important;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+
+/* Elimina comportamiento de Owl Carousel */
+.contact-list.owl-carousel .owl-stage-outer,
+.contact-list.owl-carousel .owl-stage,
+.contact-list.owl-carousel .owl-item {
+  transform: none !important;
+  width: auto !important;
+  display: flex !important;
+}
+
+/* Opcional: evitar scroll horizontal */
+.contact-list.owl-carousel {
+  overflow: visible !important;
+}
+
+
+
+.contact-a a{
+  text-decoration: none !important;
+}
+
+.contact-box h3 {
+  font-size:22px;
+  font-weight:700;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.contact-box p:last-child {
+  margin:0;
+} 
+
+
+
+
+
+
+
+
+
+
+
 .form-control {
   height: 50px;
   color:#fff;
