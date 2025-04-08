@@ -15,8 +15,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw; /* Hasta el 90% del ancho de la pantalla */
-    max-width: 1400px; /* Ajusta según el tamaño deseado */
+    width: 60vw; /* Hasta el 90% del ancho de la pantalla */
+    max-width: 1800px; /* Ajusta según el tamaño deseado */
     height: auto;
     z-index: 999999;
     background-color: transparent;
@@ -27,7 +27,7 @@
     width: 100%; /* Ocupará todo el ancho del modal */
     display: flex;
     justify-content: center;
-    padding-bottom: 370px;
+    padding-bottom: 460px;
     border-radius: 10px;
     z-index: 10000;
 }
