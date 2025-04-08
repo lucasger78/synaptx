@@ -57,7 +57,8 @@
     }
 
     .mobile {
-        display: block;
+        display: flex;
+        margin-top: 60px;
         width: 100%; /* Asegura que el video ocupe toda la pantalla */
         max-height: 400px; /* Ajusta según lo que quieras */
     }
