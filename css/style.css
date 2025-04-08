@@ -329,12 +329,14 @@ video {
   text-decoration: none;
   background: linear-gradient(rgb(255, 0, 157),rgb(173, 55, 241)) !important;
   -webkit-background-clip: text !important;
+  background-clip: text !important;
   color: transparent !important;  
 }
 
 .text-brand:hover{
   background: linear-gradient(rgb(173, 55, 241), rgb(255, 0, 157)) !important;
   -webkit-background-clip: text !important;
+  background-clip: text !important;
   color: transparent !important; 
   /* text-shadow:rgba(236, 56, 167, 0.6) 2px 2px 20px ;   */
   cursor: pointer; 
@@ -507,6 +509,7 @@ video {
 .highlighted-title{
   background: linear-gradient(rgb(173, 55, 241, 0.9), rgb(255, 0, 157, 0.9));
   -webkit-background-clip: text;
+  background-clip: text !important;
   color: transparent; 
   text-shadow:rgba(255, 255, 255, 0.4) 1px 1px 8px;
 }
@@ -514,6 +517,7 @@ video {
 .highlighted-title:hover{
   background: linear-gradient(rgb(255, 0, 157, 0.9), rgb(173, 55, 241, 0.9));
   -webkit-background-clip: text;
+  background-clip: text !important;
   color: transparent; 
   text-shadow:rgba(255, 255, 255, 0.4) 1px 1px 8px;
   cursor: pointer;
@@ -558,12 +562,14 @@ video {
 h1 {
   background: linear-gradient(rgb(255, 0, 157, 0.6),rgb(173, 55, 241, 0.6));
   -webkit-background-clip: text;
+  background-clip: text !important;
   color: transparent;    
 }
 
 h1:hover {
   background: linear-gradient(rgb(173, 55, 241, 0.6), rgb(255, 0, 157, 0.6));
   -webkit-background-clip: text;
+  background-clip: text !important;
   color: transparent; 
   /* text-shadow:rgba(236, 56, 167, 0.6) 2px 2px 20px ;   */
   cursor: pointer; 
