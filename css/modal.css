@@ -63,24 +63,36 @@
         max-height: 400px; /* Ajusta según lo que quieras */
     }
 
+    .eins-modal-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70vw; /* Hasta el 90% del ancho de la pantalla */
+        max-width: 1400px; /* Ajusta según el tamaño deseado */
+        height: auto;
+        z-index: 999999;
+        background-color: transparent;
+      
+    }
+
+    .video-player {
+        width: 100%; /* Que el video se ajuste al tamaño del contenedor */
+        max-width: 1400px; /* Ajusta según el tamaño que necesites */
+        height: auto;
+        border-radius: 10px;
+        z-index: 1000001;
+        filter: brightness(1.3) contrast(1.1);    }
+
     .eins-modal-preview {
         width: 100%; 
         display: flex;
         justify-content: center;
-        padding-bottom: 1000px;
+        padding-bottom: 1200px;
         border-radius: 10px;
         z-index: 10000;
     }
 }
-    /* .eins-modal-preview {
-        width: 100%; 
-        display: flex;
-        justify-content: center;
-        padding-bottom: 370px;
-        border-radius: 10px;
-        z-index: 10000;
-    }
- */
+   
 
 
 
