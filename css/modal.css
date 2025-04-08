@@ -57,12 +57,30 @@
     }
 
     .mobile {
-        display: flex;
-        margin-top: 60px;
+        display: block;
+        margin-top: 350px;
         width: 100%; /* Asegura que el video ocupe toda la pantalla */
         max-height: 400px; /* Ajusta según lo que quieras */
     }
+
+    .eins-modal-preview {
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1000px;
+        border-radius: 10px;
+        z-index: 10000;
+    }
 }
+    /* .eins-modal-preview {
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+        padding-bottom: 370px;
+        border-radius: 10px;
+        z-index: 10000;
+    }
+ */
 
 
 
