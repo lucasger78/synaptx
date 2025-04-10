@@ -804,6 +804,17 @@ h1:hover {
   transition: all 0.4s ease;
 }
 
+.services-section {
+  padding: 30px 0;
+}
+
+.service-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
 .item-aplicacion{
   margin-bottom: 30px;
 }
@@ -855,6 +866,24 @@ h1:hover {
 
 .owl-carousel .owl-dots .owl-dot.active {
     background: rgb(112, 15, 240);
+}
+
+
+@media (max-width: 767px) {
+  .services-list .item {
+    width: 100% !important;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .services-section {
+    overflow: hidden;
+  }
 }
 
 /*==============================================
@@ -981,6 +1010,26 @@ h1:hover {
   text-align: center;
   margin: 0 auto;
 }
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* espacio entre las tarjetas */
+  justify-content: center;
+}
+
+.contact-list .item {
+  flex: 1 1 45%; /* ocupa mínimo 45%, se adapta */
+  max-width: 300px;
+}
+
+@media (max-width: 500px) {
+  .contact-list .item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
 
 /* Ajustes extra para alineación y separación */
 .contact-h3 {
